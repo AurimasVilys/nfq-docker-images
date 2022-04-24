@@ -1,4 +1,4 @@
-FROM nfqlt/debian-bullseye
+FROM ghcr.io/aurimasvilys/nfq-docker-images/debian-bullseye
 
 CMD run-parts -v /etc/rc.d
 

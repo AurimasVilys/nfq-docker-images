@@ -1,4 +1,4 @@
-FROM nfqlt/debian-buster
+FROM ghcr.io/aurimasvilys/nfq-docker-images/debian-bullseye
 
 
 VOLUME ["/var/elasticsearch/data"]
