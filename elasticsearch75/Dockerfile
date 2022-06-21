@@ -1,5 +1,4 @@
-FROM ghcr.io/0lukas/nfq-docker-images/debian-bullseye
-
+FROM ghcr.io/aurimasvilys/nfq-docker-images/debian-bullseye
 
 VOLUME ["/var/elasticsearch/data"]
 WORKDIR /var/elasticsearch/data
